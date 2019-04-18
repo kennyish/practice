@@ -1,3 +1,4 @@
+Jenkinsfile (Declaratice Pipeline)
 pipeline {
     agent { docker { image 'golang' } }
     stages {
