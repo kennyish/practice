@@ -7,5 +7,15 @@ pipeline {
                 sh 'go version'
             }
         }
+        stage('test'){
+            steps{
+                sh 'echo "Test Stage Here"'   
+            }
+        }
+        stage('deploy'){
+            steps{
+                sh 'echo "Delpoy Stage Here"'
+            }
+        }
     }
 }
