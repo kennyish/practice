@@ -2,7 +2,7 @@ Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     
-    stage {
+    stages {
         stage('Build') {
             steps {
                 echo 'Building..'
